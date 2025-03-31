@@ -1,0 +1,3613 @@
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:45 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:45 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:46 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:47 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:48 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:49 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:49 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:51 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:52 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:52 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:54 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 12:45:56 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 23 12:46:14 2025
+Total run was 29.582616625s, and digits requested was 49900 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:39 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 14:54:39 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 23 14:54:42 2025
+Total run was 6.572563458s, and digits requested was 23000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Sun Mar 23 16:03:56 2025
+4030402779 was Lines/Second  
+2.878859e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 13.894392958s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Sun Mar 23 16:04:13 2025
+7227227028 was Lines/Second  
+5.162305e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.4340725s 
+
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Sun Mar 23 16:09:47 2025
+3995311929 was Lines/Second  
+2.853794e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 14.0164275s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Sun Mar 23 16:10:04 2025
+7224695643 was Lines/Second  
+5.160497e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.440181042s 
+
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Sun Mar 23 16:19:46 2025
+4029946242 was Lines/Second  
+2.878533e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 13.895967s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Sun Mar 23 16:20:04 2025
+7206495093 was Lines/Second  
+5.147496e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.484227542s 
+
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Sun Mar 23 16:26:53 2025
+3861226906 was Lines/Second  
+2.758019e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 14.503162167s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Sun Mar 23 16:27:11 2025
+7163267361 was Lines/Second  
+5.116620e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.589738541s 
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Sun Mar 23 16:28:53 2025
+1299668101 was Lines/Second  
+1.181516e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.539109791s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Sun Mar 23 16:41:04 2025
+1391379508 was Lines/Second  
+1.264890e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.371746875s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Sun Mar 23 16:44:26 2025
+1405744910 was Lines/Second  
+1.277950e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.347509834s 
+ 
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:25:00 2025
+100000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 51.186209916s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:27:34 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.819879666s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:31:01 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.793906917s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:38:06 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.739857875s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:42:44 2025
+500000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 4m16.05413075s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:44:38 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.651513584s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 17:53:38 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 15.048303875s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:00:21 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.74211875s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:03:21 2025
+300000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 2m27.937994208s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:16:36 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.748218541s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:20:07 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.7205435s 
+ 
+Results from running Nilakantha (case 5:) can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:08 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:08 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:09 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:09 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:09 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:09 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:09 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:09 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:10 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:11 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:12 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 18:23:12 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 23 18:23:15 2025
+Total run was 6.564421125s, and digits requested was 23000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:37:05 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 15.169593417s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:46:56 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.848438s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 18:52:37 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 15.33883825s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 19:08:22 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.7351475s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 19:13:32 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.718570208s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 19:16:11 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.615242042s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 19:23:04 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.677970375s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 19:46:33 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.810194417s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 20:06:41 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.774268666s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 20:08:05 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.719773334s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 20:09:36 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.730503375s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 20:10:52 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.738531625s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 20:15:21 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.854342542s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 20:48:31 2025
+30000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 14.774143125s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 13 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:05:13 2025
+10000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 18.466584ms 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 15 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:05:27 2025
+100000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 80.01675ms 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 18 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:05:43 2025
+500000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 269.160292ms 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 19 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:06:00 2025
+1000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 488.685625ms 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 21 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:06:14 2025
+5000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 2.42935825s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 24 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:07:00 2025
+50000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 24.815478625s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+These are the 25 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:08:37 2025
+100000000 was total Iterations; 512 was precision setting for the big.Float types 
+Total run was 1m4.656298791s -- 25
+ 
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:14:36 2025
+300000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 2m31.674818208s -- 26 digits of pi
+ 
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:29:05 2025
+300000000 was total Iterations; 256 was precision setting for the big.Float types 
+Total run was 2m31.573885083s -- 26 digits of pi
+ 
+    and then, with .Text('f', 60) and precision of 128 we got: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 21:33:04 2025
+300000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 2m7.000365334s -- 26 digits of pi
+
+a significant improvement 2m31.5s down to 2m7.0 seconds 
+ 
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 23 22:01:56 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 12.397472083s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Sun Mar 23 22:02:39 2025
+937962719 was Lines/Second  
+8.526934e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.5182635s 
+ 
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Sun Mar 23 22:03:08 2025
+3483255013 was Lines/Second  
+2.488039e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 16.0769165s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Sun Mar 23 22:03:28 2025
+6757710396 was Lines/Second  
+4.826936e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 18.645368417s 
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Sun Mar 23 22:04:53 2025
+634125685 was Lines/Second  
+5.764779e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 5.204015666s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:05:58 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:05:58 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:06:08 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:06:08 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 23 22:06:10 2025
+Total run was 16.200465708s, and digits requested was 46 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582938391584341776027395510552
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:06:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:06:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 31 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:06:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:06:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:13 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:13 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:13 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:13 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:14 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:14 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:14 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:14 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:17 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:17 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:17 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:17 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:17 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 22:07:17 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 23 22:07:20 2025
+Total run was 7.41057225s, and digits requested was 23000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Sun Mar 23 22:09:11 2025
+Runtime this far is 2.683822708s 
+... while calculating Pi to 160 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Sun Mar 23 22:09:25 2025
+Total run was 16.837743208s 
+To calculate Pi to 160 digits
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sun Mar 23 22:09:57 2025
+1268.00 was Iterations/Seconds 
+189 was total Iterations 
+Total run was 149.054041ms 
+ 
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sun Mar 23 23:00:49 2025
+12938.08 was Iterations/Seconds 
+189 was total Iterations 
+Total run was 14.608042ms 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Sun Mar 23 23:01:01 2025
+Runtime this far is 666.951292ms 
+... while calculating Pi to 160 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:05 2025
+Total run was 4.345593083s 
+To calculate Pi to 160 digits
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:24 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:24 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:25 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:25 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:28 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:28 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:32 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:32 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:42 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 23 23:01:42 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 23 23:01:43 2025
+Total run was 19.167745792s, and digits requested was 10000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sun Mar 23 23:05:49 2025
+8876.71 was Iterations/Seconds 
+189 was total Iterations 
+Total run was 21.291667ms 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Sun Mar 23 23:06:00 2025
+4,065,543,257 was Lines/Second  
+112931757.16 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.854905167s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Tue Mar 25 01:38:26 2025
+Runtime this far is 279.65325ms 
+... while calculating Pi to 160 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Tue Mar 25 01:38:27 2025
+Total run was 1.769119709s 
+To calculate Pi to 160 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Tue Mar 25 01:39:01 2025
+Runtime this far is 1.002188042s 
+... while calculating Pi to 55 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Tue Mar 25 01:39:06 2025
+Total run was 5.455100167s 
+To calculate Pi to 55 digits
+
+  -- John Wallis -- on Mac-mini.local 
+was run on: Tue Mar 25 19:20:34 2025
+4,336,932,816 was Lines/Second  
+120470356.03 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.30079725s 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Tue Mar 25 19:53:06 2025
+2768.81 was Iterations/Seconds 
+41 was total Iterations 
+Total run was 14.807792ms 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Wed Mar 26 07:40:56 2025
+1397312485 was Lines/Second  
+1.270284e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.361676458s 
+ 
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Wed Mar 26 07:41:12 2025
+3929955502 was Lines/Second  
+2.807111e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 14.249525208s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Wed Mar 26 07:41:30 2025
+7148161380 was Lines/Second  
+5.105830e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.626910375s 
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:45:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:45:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:45:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:45:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:46:03 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:46:03 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:46:03 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 07:46:03 2025
+
+Results from running Chud can be viewed in a file
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Wed Mar 26 07:46:22 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 12.442325417s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Wed Mar 26 07:46:42 2025
+4115.68 was Iterations/Seconds 
+4999 was total Iterations 
+Total run was 1.214623958s 
+ 
+  -- Spigot -- on Mac-mini.local 
+was run on: Wed Mar 26 08:08:35 2025
+Total run was 7.208003291s 
+To calculate Pi to 10 digits
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:09:02 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:09:02 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:09:22 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:09:22 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:09:59 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:09:59 2025
+
+Results from running Chud can be viewed in a file
+
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Wed Mar 26 08:10:26 2025
+4009767303 was Lines/Second  
+2.864120e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 13.965897708s 
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Wed Mar 26 08:11:41 2025
+1423995994 was Lines/Second  
+1.294542e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.31742225s 
+ 
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Wed Mar 26 08:15:26 2025
+4009698218 was Lines/Second  
+2.864070e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 13.966138333s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Wed Mar 26 08:15:43 2025
+7219104052 was Lines/Second  
+5.156503e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.453689417s 
+
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Wed Mar 26 08:18:14 2025
+3955864234 was Lines/Second  
+2.825617e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 14.156198666s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Wed Mar 26 08:18:32 2025
+7245915832 was Lines/Second  
+5.175654e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 17.389106209s 
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Wed Mar 26 08:18:38 2025
+1356740906 was Lines/Second  
+1.233401e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.432299333s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:15 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:15 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:16 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:16 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:18 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:18 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:23 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:23 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:32 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Wed Mar 26 08:19:33 2025
+Total run was 18.537665292s, and digits requested was 5000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- Spigot -- on Mac-mini.local 
+was run on: Wed Mar 26 08:19:48 2025
+Total run was 1.075862292s 
+To calculate Pi to 5 digits
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Wed Mar 26 08:31:26 2025
+528.55 was Iterations/Seconds 
+9 was total Iterations 
+Total run was 17.027834ms 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Wed Mar 26 08:36:42 2025
+249.89 was Iterations/Seconds 
+8 was total Iterations 
+Total run was 32.013792ms 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Wed Mar 26 08:46:52 2025
+287.73 was Iterations/Seconds 
+4 was total Iterations 
+Total run was 13.902042ms 
+ 
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:09 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 12.495537542s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:31 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:31 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:32 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:32 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:42 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:42 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:42 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 08:47:42 2025
+
+Results from running Chud can be viewed in a file
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Wed Mar 26 08:53:32 2025
+1398404756 was Lines/Second  
+1.271277e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.359831791s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Wed Mar 26 09:01:24 2025
+1296950084 was Lines/Second  
+1.179046e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.544431s 
+ 
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Wed Mar 26 09:34:12 2025
+3960197049 was Lines/Second  
+2.828712e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 14.1407105s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Wed Mar 26 09:34:31 2025
+6820355052 was Lines/Second  
+4.871682e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 18.474111541s 
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Wed Mar 26 12:03:42 2025
+3501.59 was Iterations/Seconds 
+44 was total Iterations 
+Total run was 12.565708ms 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 12:03:48 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 12:03:48 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 12:03:49 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Wed Mar 26 12:03:49 2025
+
+Results from running Chud can be viewed in a file
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Wed Mar 26 13:03:17 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 12.444039917s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 07:01:55 2025
+2,101,555,711 was Lines/Second  
+58376547.54 was Iterations/Seconds  
+9.984319e+08 was total Iterations  
+Total run was 17.103304583s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 07:01:55 2025
+2,090,715,196 was Lines/Second  
+58075422.12 was Iterations/Seconds  
+9.984319e+08 was total Iterations  
+Total run was 17.1919865s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 07:09:24 2025
+3,218,845,410 was Lines/Second  
+89412372.52 was Iterations/Seconds  
+3.997343e+10 was total Iterations  
+Total run was 7m27.068200125s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 07:09:24 2025
+3,218,421,368 was Lines/Second  
+89400593.56 was Iterations/Seconds  
+3.997343e+10 was total Iterations  
+Total run was 7m27.127103542s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 07:16:47 2025
+4,222,387,582 was Lines/Second  
+117288543.97 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.525981875s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 07:19:01 2025
+4,234,498,737 was Lines/Second  
+117624964.94 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.501596583s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 07:24:32 2025
+4,346,241,867 was Lines/Second  
+120728940.76 was Iterations/Seconds  
+4.000000e+10 was total Iterations  
+Total run was 5m31.3207235s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 07:29:28 2025
+4,253,193,034 was Lines/Second  
+118144250.95 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.464229042s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 07:34:52 2025
+4,441,135,014 was Lines/Second  
+123364861.50 was Iterations/Seconds  
+4.000000e+10 was total Iterations  
+Total run was 5m24.24143725s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 07:42:06 2025
+4,218,157,233 was Lines/Second  
+117171034.27 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.5345325s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 07:46:30 2025
+1411402496 was Lines/Second  
+1.283093e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.338099875s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 07:47:23 2025
+901191488 was Lines/Second  
+8.192650e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.661818875s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:27 2025
+1432132774 was Lines/Second  
+1.301939e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.304255625s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:39 2025
+1450048202 was Lines/Second  
+1.318226e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.275786416s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:49 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:49 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:49 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:49 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 08:34:50 2025
+
+Results from running Chud can be viewed in a file
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 08:45:40 2025
+1447465210 was Lines/Second  
+1.315877e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.279847541s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 08:46:04 2025
+1422196402 was Lines/Second  
+1.292906e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.320354625s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 08:51:50 2025
+1447190987 was Lines/Second  
+1.315628e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.280279542s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 08:59:07 2025
+1437417275 was Lines/Second  
+1.306743e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.295784292s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:15:20 2025
+1448325581 was Lines/Second  
+1.316660e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.278493209s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:19:44 2025
+1303283992 was Lines/Second  
+1.184804e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.532065167s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:25:19 2025
+1445093376 was Lines/Second  
+1.313721e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.283589458s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:35:35 2025
+1394398553 was Lines/Second  
+1.267635e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.36661175s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:37:55 2025
+1402953210 was Lines/Second  
+1.275412e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.352181083s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:38:17 2025
+910054489 was Lines/Second  
+8.273223e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.6261565s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 09:40:56 2025
+4,356,769,544 was Lines/Second  
+121021376.24 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.263003042s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 09:50:59 2025
+1400073122 was Lines/Second  
+1.272794e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.35701975s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 09:51:13 2025
+3,866,296,884 was Lines/Second  
+107397135.68 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 9.311235292s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 09:56:39 2025
+4,432,479,597 was Lines/Second  
+123124433.28 was Iterations/Seconds  
+4.000000e+10 was total Iterations  
+Total run was 5m24.874591792s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 10:02:39 2025
+1398242110 was Lines/Second  
+1.271129e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.360106291s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 10:02:50 2025
+3,783,893,172 was Lines/Second  
+105108143.67 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 9.514010666s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 10:08:18 2025
+4,390,040,377 was Lines/Second  
+121945566.04 was Iterations/Seconds  
+4.000000e+10 was total Iterations  
+Total run was 5m28.015206291s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 10:11:20 2025
+850894858 was Lines/Second  
+7.735408e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.87827s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 14:49:05 2025
+321392219 was Lines/Second  
+2.921747e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 10.267827916s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 14:49:29 2025
+277937357 was Lines/Second  
+2.526703e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 11.873179042s 
+ 
+  -- Gottfried Wilhelm Leibniz --  on Mac-mini.local 
+was run on: Thu Mar 27 14:50:16 2025
+1897038921 was Lines/Second  
+1.355028e+08 was Iterations/Seconds  
+4.000000e+09 was total Iterations  
+Total runTime was 29.519689542s 
+
+  -- Gottfried Wilhelm Leibniz (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 14:50:52 2025
+4724106103 was Lines/Second  
+3.374362e+08 was Iterations/Seconds  
+9.000000e+09 was total Iterations  
+Total runTime was 26.671712542s 
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 14:51:18 2025
+228277187 was Lines/Second  
+2.075247e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 14.456109458s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:20:20 2025
+3,946,312,158 was Lines/Second  
+109619782.18 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 9.122441042s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:27:03 2025
+2,930,254,430 was Lines/Second  
+81395956.39 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 12.285622583s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:34:10 2025
+3,035,631,835 was Lines/Second  
+84323106.54 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 11.859145625s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:34:43 2025
+2,014,573,067 was Lines/Second  
+55960362.98 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 17.869791166s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:40:53 2025
+2,944,923,579 was Lines/Second  
+81803432.75 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 12.224425875s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:42:12 2025
+2,974,867,236 was Lines/Second  
+82635201.03 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 12.101380375s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 15:47:53 2025
+4,230,799,593 was Lines/Second  
+117522210.93 was Iterations/Seconds  
+4.000000e+10 was total Iterations  
+Total run was 5m40.361193708s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:53:49 2025
+4,066,701,530 was Lines/Second  
+112963931.39 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 8.852383125s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 15:59:13 2025
+2,987,328,416 was Lines/Second  
+82981344.90 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 12.050901334s 
+ 
+  -- John Wallis -- on Mac-mini.local 
+was run on: Thu Mar 27 16:03:59 2025
+2,982,795,453 was Lines/Second  
+82855429.26 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 12.069215125s 
+ 
+  -- John Wallis (cont.) -- on Mac-mini.local 
+was run on: Thu Mar 27 16:09:39 2025
+4,253,257,010 was Lines/Second  
+118146028.06 was Iterations/Seconds  
+4.000000e+10 was total Iterations  
+Total run was 5m38.564069041s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 17:21:52 2025
+1395844146 was Lines/Second  
+1.268949e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.364160791s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 17:22:06 2025
+1293341832 was Lines/Second  
+1.175765e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.551529625s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 18:32:49 2025
+1405955079 was Lines/Second  
+1.278141e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.347158917s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 18:34:30 2025
+1438704120 was Lines/Second  
+1.307913e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.293730833s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 18:34:42 2025
+1436190804 was Lines/Second  
+1.305628e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.297744833s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 18:49:57 2025
+1443466551 was Lines/Second  
+1.312242e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.286163125s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 19:07:47 2025
+1379202521 was Lines/Second  
+1.253820e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.392687042s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 19:09:23 2025
+1437482524 was Lines/Second  
+1.306802e+08 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 2.295680083s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 20:26:34 2025
+991618992 was Lines/Second  
+9.014718e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.327891083s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 20:30:52 2025
+992483765 was Lines/Second  
+9.022580e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.324991417s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 20:30:57 2025
+990406203 was Lines/Second  
+9.003693e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.331966208s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 20:31:04 2025
+981114682 was Lines/Second  
+8.919224e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.363521167s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 22:44:49 2025
+992940432 was Lines/Second  
+9.026731e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.323462209s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Thu Mar 27 22:46:05 2025
+Runtime this far is 567.119416ms 
+... while calculating Pi to 400 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Thu Mar 27 22:46:08 2025
+Runtime this far is 2.818040458s 
+... while calculating Pi to 400 digits, having completed 250 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:15 2025
+Total run was 9.780004583s 
+To calculate Pi to 400 digits
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:28 2025
+924113912 was Lines/Second  
+8.401036e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.570988334s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:39 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:39 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:41 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:41 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:43 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Thu Mar 27 22:46:43 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Thu Mar 27 22:46:44 2025
+Total run was 4.789840042s, and digits requested was 20000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 08:07:22 2025
+997825081 was Lines/Second  
+9.071137e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.307192875s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 08:07:34 2025
+985777030 was Lines/Second  
+8.961609e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.347613s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 08:34:18 2025
+992494896 was Lines/Second  
+9.022681e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.324954125s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 08:47:38 2025
+993614147 was Lines/Second  
+9.032856e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.32120875s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 08:47:46 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 08:47:46 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 08:47:46 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 08:47:46 2025
+
+Results from running Chud can be viewed in a file
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 11:06:54 2025
+993577974 was Lines/Second  
+9.032527e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.321329667s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 11:20:09 2025
+987976291 was Lines/Second  
+8.981603e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.340161125s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 11:24:29 2025
+987517800 was Lines/Second  
+8.977435e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.341711917s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 11:24:41 2025
+987092654 was Lines/Second  
+8.973570e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.343151208s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 11:38:09 2025
+990270864 was Lines/Second  
+9.002462e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.332421584s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 11:40:18 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 11:40:18 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 11:40:19 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 11:40:19 2025
+
+Results from running Chud can be viewed in a file
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 12:18:58 2025
+989131691 was Lines/Second  
+8.992106e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.3362595s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:19:02 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:19:02 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:19:02 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:19:02 2025
+
+Results from running Chud can be viewed in a file
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 12:21:37 2025
+982661386 was Lines/Second  
+8.933285e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.358227s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:08 2025
+894365346 was Lines/Second  
+8.130594e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.689767291s 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:23 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:23 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:23 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:23 2025
+
+Results from running Chud can be viewed in a file
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:37 2025
+21137.28 was Iterations/Seconds 
+998 was total Iterations 
+Total run was 47.215167ms 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:40 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:40 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:40 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:23:40 2025
+
+Results from running Chud can be viewed in a file
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Fri Mar 28 12:24:01 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 13.255690375s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:51 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:51 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:51 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:51 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:58 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:58 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:58 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:58 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:59 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:59 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:59 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:25:59 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:26:00 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:26:00 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Fri Mar 28 12:26:00 2025
+Total run was 1.800738708s, and digits requested was 466 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:27:09 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:27:09 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:27:10 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 12:27:10 2025
+
+Results from running Chud can be viewed in a file
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Fri Mar 28 13:33:40 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 13.119282833s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 13:44:09 2025
+994281026 was Lines/Second  
+9.038918e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.318981167s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 13:44:26 2025
+990745301 was Lines/Second  
+9.006775e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.330825791s 
+ 
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:44:41 2025
+Total run was 18.894917ms 
+To calculate Pi to 0 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:45:02 2025
+Total run was 16.7005ms 
+To calculate Pi to 0 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:45:25 2025
+Total run was 22.217416ms 
+To calculate Pi to 0 digits
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 13:45:34 2025
+949500846 was Lines/Second  
+8.631826e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.475510333s 
+ 
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:45:43 2025
+Total run was 32.92875ms 
+To calculate Pi to 0 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:20 2025
+Total run was 52.826042ms 
+To calculate Pi to 0 digits
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:34 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:34 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:39 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:39 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:47 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 13:46:47 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Fri Mar 28 13:46:47 2025
+Total run was 14.293588791s, and digits requested was 30000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:47:05 2025
+Runtime this far is 2.094037375s 
+... while calculating Pi to 88 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:47:10 2025
+Total run was 7.361308s 
+To calculate Pi to 88 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:47:58 2025
+Runtime this far is 32.310708ms 
+... while calculating Pi to 222 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:47:58 2025
+Total run was 142.428708ms 
+To calculate Pi to 222 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:48:12 2025
+Runtime this far is 51.882ms 
+... while calculating Pi to 400 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:48:12 2025
+Runtime this far is 169.942917ms 
+... while calculating Pi to 400 digits, having completed 250 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:48:14 2025
+Total run was 1.218125833s 
+To calculate Pi to 400 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:57:24 2025
+Total run was 1.328ms 
+To calculate Pi to 0 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:57:41 2025
+Runtime this far is 38.338584ms 
+... while calculating Pi to 460 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:57:41 2025
+Runtime this far is 138.521417ms 
+... while calculating Pi to 460 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 13:57:41 2025
+Runtime this far is 306.147084ms 
+... while calculating Pi to 460 digits, having completed 450 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 13:57:41 2025
+Total run was 716.839792ms 
+To calculate Pi to 460 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:08:27 2025
+Total run was 1.477542ms 
+To calculate Pi to 0 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:24:12 2025
+Runtime this far is 25.22ms 
+... while calculating Pi to 460 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:24:12 2025
+Runtime this far is 98.9885ms 
+... while calculating Pi to 460 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:24:12 2025
+Runtime this far is 228.220417ms 
+... while calculating Pi to 460 digits, having completed 450 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:24:12 2025
+Total run was 504.213417ms 
+To calculate Pi to 460 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:24:34 2025
+Runtime this far is 74.210375ms 
+... while calculating Pi to 459 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:24:34 2025
+Runtime this far is 253.094958ms 
+... while calculating Pi to 459 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:24:34 2025
+Runtime this far is 451.131917ms 
+... while calculating Pi to 459 digits, having completed 450 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:24:37 2025
+Total run was 2.750557875s 
+To calculate Pi to 459 digits
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 14:27:08 2025
+980578479 was Lines/Second  
+8.914350e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.365360417s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:27:38 2025
+Runtime this far is 448.429875ms 
+... while calculating Pi to 222 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:27:52 2025
+Total run was 14.351596041s 
+To calculate Pi to 222 digits
+
+  -- John Wallis -- on Mac-mini.local 
+was run on: Fri Mar 28 14:28:41 2025
+4,732,419,032 was Lines/Second  
+131456084.22 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 7.607103208s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 14:28:49 2025
+912919281 was Lines/Second  
+8.299266e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.614777417s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:28:59 2025
+Runtime this far is 1.349172917s 
+... while calculating Pi to 222 digits, having completed 50 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:29:46 2025
+Total run was 48.460701709s 
+To calculate Pi to 222 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:36:21 2025
+Runtime this far is 21.475958ms 
+... while calculating Pi to 400 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:36:21 2025
+Runtime this far is 94.381583ms 
+... while calculating Pi to 400 digits, having completed 250 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:36:21 2025
+Total run was 179.623542ms 
+To calculate Pi to 400 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:38:32 2025
+Runtime this far is 24.390208ms 
+... while calculating Pi to 1460 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:38:32 2025
+Runtime this far is 95.988666ms 
+... while calculating Pi to 1460 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:38:32 2025
+Runtime this far is 222.620416ms 
+... while calculating Pi to 1460 digits, having completed 450 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:38:34 2025
+Runtime this far is 2.429271125s 
+... while calculating Pi to 1460 digits, having completed 1200 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 14:38:36 2025
+Total run was 4.452741875s 
+To calculate Pi to 1460 digits
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 14:38:56 2025
+990094133 was Lines/Second  
+9.000856e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.333016416s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:39:09 2025
+Runtime this far is 149.912917ms 
+... while calculating Pi to 1460 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:39:09 2025
+Runtime this far is 668.731125ms 
+... while calculating Pi to 1460 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:39:10 2025
+Runtime this far is 1.217238542s 
+... while calculating Pi to 1460 digits, having completed 450 digits
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 14:39:23 2025
+964753921 was Lines/Second  
+8.770490e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.420561375s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:39:32 2025
+Runtime this far is 330.707041ms 
+... while calculating Pi to 1460 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:39:33 2025
+Runtime this far is 1.589858833s 
+... while calculating Pi to 1460 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 14:39:34 2025
+Runtime this far is 2.848363541s 
+... while calculating Pi to 1460 digits, having completed 450 digits
+
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 14:39:46 2025
+928471440 was Lines/Second  
+8.440649e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.554228875s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 18:31:46 2025
+Runtime this far is 26.066916ms 
+... while calculating Pi to 999 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 18:31:46 2025
+Runtime this far is 102.974958ms 
+... while calculating Pi to 999 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 18:31:46 2025
+Runtime this far is 264.209333ms 
+... while calculating Pi to 999 digits, having completed 450 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 18:31:48 2025
+Total run was 1.579303291s 
+To calculate Pi to 999 digits
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Fri Mar 28 21:08:18 2025
+2048.19 was Iterations/Seconds 
+3 was total Iterations 
+Total run was 1.464708ms 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Fri Mar 28 21:16:56 2025
+1038.47 was Iterations/Seconds 
+1 was total Iterations 
+Total run was 962.959µs 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Fri Mar 28 21:17:19 2025
+58908.32 was Iterations/Seconds 
+109 was total Iterations 
+Total run was 1.850333ms 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 21:17:47 2025
+Runtime this far is 21.451458ms 
+... while calculating Pi to 999 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 21:17:47 2025
+Runtime this far is 90.010166ms 
+... while calculating Pi to 999 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Fri Mar 28 21:17:48 2025
+Runtime this far is 217.470583ms 
+... while calculating Pi to 999 digits, having completed 450 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Fri Mar 28 21:17:49 2025
+Total run was 1.406332375s 
+To calculate Pi to 999 digits
+
+  -- John Wallis -- on Mac-mini.local 
+was run on: Fri Mar 28 21:18:06 2025
+5,004,166,229 was Lines/Second  
+139004617.47 was Iterations/Seconds  
+1.000000e+09 was total Iterations  
+Total run was 7.194005625s 
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Fri Mar 28 21:18:18 2025
+964253175 was Lines/Second  
+8.765938e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.422337708s 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Fri Mar 28 21:29:51 2025
+862.53 was Iterations/Seconds 
+1 was total Iterations 
+Total run was 1.159375ms 
+ 
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Fri Mar 28 21:39:07 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 12.517487583s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 21:39:17 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 21:39:17 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 21:39:17 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 21:39:17 2025
+
+Results from running Chud can be viewed in a file
+
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Fri Mar 28 21:41:51 2025
+41539.07 was Iterations/Seconds 
+65 was total Iterations 
+Total run was 1.564792ms 
+ 
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 22:04:31 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 22:04:31 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 22:04:31 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Fri Mar 28 22:04:31 2025
+
+Results from running Chud can be viewed in a file
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:32:05 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.895082667s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:37:18 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.87743525s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:38:55 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.892245625s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:46:32 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.953208708s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:46:36 2025
+Total run was 22.294917ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:46:46 2025
+Total run was 18.732625ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:46:52 2025
+Total run was 17.013458ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:53:48 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.887813625s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:53:53 2025
+Total run was 19.944459ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:53:58 2025
+Total run was 14.521333ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:55:11 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.883199916s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:56:24 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.894213209s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:56:26 2025
+Total run was 23.437208ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:56:44 2025
+Total run was 19.260458ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:56:49 2025
+Total run was 18.041333ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:59:02 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 2.019702542s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:59:05 2025
+Total run was 28.267542ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 4 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:59:09 2025
+Total run was 14.433209ms 
+ the 2 root of 4 is 2.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:59:14 2025
+Total run was 15.795167ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 16 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 08:59:18 2025
+Total run was 13.281ms 
+ the 2 root of 16 is 4.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 09:05:53 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.88286125s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 09:05:55 2025
+Total run was 21.396917ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 09:06:07 2025
+Total run was 19.026ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 16 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 09:06:14 2025
+Total run was 15.446875ms 
+ the 2 root of 16 is 4.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 12:38:12 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.910745375s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 12:38:18 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.901604958s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 12:38:33 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.90810575s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 12:44:28 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.894536875s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 12:44:31 2025
+Total run was 20.073666ms 
+ the 2 root of 9 is 3.00 
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sat Mar 29 12:44:59 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sat Mar 29 12:44:59 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 54 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sat Mar 29 12:44:59 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sat Mar 29 12:44:59 2025
+
+Results from running Chud can be viewed in a file
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:16:51 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.938633709s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:17:38 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.882759459s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:17:42 2025
+Total run was 20.685625ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:17:47 2025
+Total run was 19.27925ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:32:05 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.887914417s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:32:10 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.922829584s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 13:35:24 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.887217125s 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sat Mar 29 17:29:41 2025
+587.18 was Iterations/Seconds 
+1 was total Iterations 
+Total run was 1.703041ms 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 17:58:40 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.90779975s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 17:58:57 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.884340417s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 18:04:20 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.883319458s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 18:04:24 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.864378375s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 18:08:05 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.899371208s 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sat Mar 29 19:33:28 2025
+738.46 was Iterations/Seconds 
+1 was total Iterations 
+Total run was 1.354167ms 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sat Mar 29 19:39:00 2025
+1697.19 was Iterations/Seconds 
+1 was total Iterations 
+Total run was 589.208µs 
+ 
+  -- calculate pi using the bbp formula -- on Mac-mini.local 
+was run on: Sat Mar 29 19:44:09 2025
+1457.90 was Iterations/Seconds 
+1 was total Iterations 
+Total run was 685.916µs 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 19:53:13 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.879185458s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 19:53:20 2025
+Total run was 18.4015ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 20:06:56 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.888614166s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 20:07:01 2025
+Total run was 21.081625ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 16 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 20:08:24 2025
+Total run was 40.848ms 
+ the 2 root of 16 is 4.00 
+
+  -- 2 root of 16 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 20:08:31 2025
+Total run was 20.714417ms 
+ the 2 root of 16 is 4.00 
+
+  -- 2 root of 16 by a ratio of PerfectProducts -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sat Mar 29 20:09:10 2025
+Total run was 20.361625ms 
+ the 2 root of 16 is 4.00 
+
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sun Mar 30 15:39:06 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 1.872768583s 
+ 
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Sun Mar 30 20:56:50 2025
+Runtime this far is 329.417375ms 
+... while calculating Pi to 1400 digits, having completed 50 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Sun Mar 30 20:56:51 2025
+Runtime this far is 1.573347s 
+... while calculating Pi to 1400 digits, having completed 250 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Sun Mar 30 20:56:52 2025
+Runtime this far is 2.859422416s 
+... while calculating Pi to 1400 digits, having completed 450 digits
+
+  -- partial Spigot in process -- on Mac-mini.local 
+... running at: Sun Mar 30 20:56:59 2025
+Runtime this far is 9.727617291s 
+... while calculating Pi to 1400 digits, having completed 1200 digits
+
+  -- Spigot -- on Mac-mini.local 
+was run on: Sun Mar 30 20:57:02 2025
+Total run was 12.492651708s 
+To calculate Pi to 1400 digits
+
+These are the 23 verified digits we have calculated  :: 
+
+  -- Nilakantha Somayaji -- on Mac-mini.local 
+was run on: Sun Mar 30 21:16:18 2025
+30000000 was total Iterations; 128 was precision setting for the big.Float types 
+Total run was 13.640154292s 
+ 
+Results from running Nilakantha can be viewed in dataLog-From_Nilakantha_Method_lengthy_prints.txt
+
+
+Here are 28 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:34 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:34 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 56 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:34 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:34 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 113 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:35 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:35 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 227 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:35 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:35 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 454 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 624 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:36 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:36 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 737 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 879 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1021 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:37 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:37 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1163 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 1305 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 2836 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:38 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:38 2025
+
+Results from running Chud can be viewed in a file
+
+
+Here are 5673 calculated digits that we have verified by reference: ChudDidLessThanOneHundredLoops ::
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:39 2025
+
+  -- Chud -- on Mac-mini.local 
+was run on: Sun Mar 30 21:21:39 2025
+
+Results from running Chud can be viewed in a file
+
+  --  pi-via-chudnovsky  --  on Mac-mini.local 
+was run on: Sun Mar 30 21:21:44 2025
+Total run was 10.404767292s, and digits requested was 30000 , and at 80f, pi: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620900
+ 
+  -- Gregory-Leibniz -- on Mac-mini.local 
+was run on: Sun Mar 30 21:22:57 2025
+852235842 was Lines/Second  
+7.747599e+07 was Iterations/Seconds  
+3.000000e+08 was total Iterations  
+Total run was 3.872167583s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sun Mar 30 21:30:21 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 2.130435417s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sun Mar 30 21:30:56 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 2.168738916s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sun Mar 30 21:31:02 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 2.1688695s 
+ 
+  -- 2 root of 0 by a ratio of perfect Products -- selection #%!d(string=Mac-mini.local) on %!s(MISSING) 
+was run on: Sun Mar 30 21:33:35 2025
+400000 was total Iterations 
+1.000000000, is the best approximation for the Square Root of 0 
+Total run was 2.093651166s 
+ 
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #1 on Mac-mini.local 
+was run on: Sun Mar 30 22:55:59 2025
+Total run was 27.907209ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #1 on Mac-mini.local 
+was run on: Sun Mar 30 23:08:08 2025
+Total run was 31.421125ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #1 on Mac-mini.local 
+was run on: Sun Mar 30 23:14:02 2025
+Total run was 26.524792ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 9 by a ratio of PerfectProducts -- selection #1 on Mac-mini.local 
+was run on: Sun Mar 30 23:19:58 2025
+Total run was 34.965875ms 
+ the 2 root of 9 is 3.00 
+
+  -- 2 root of 7 by a ratio of perfect Products -- on Mac-mini.local 
+was run on: Sun Mar 30 23:23:11 2025
+400000 was total Iterations 
+2.645751311, is the best approximation for the Square Root of 7 
+Total run was 19.097499375s 
+ 

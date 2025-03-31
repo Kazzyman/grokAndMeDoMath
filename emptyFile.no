@@ -1,0 +1,1400 @@
+package main
+
+import (
+	"fmt"
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/app"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/container"
+	"fyne.io/fyne/v2/dialog"
+	"fyne.io/fyne/v2/theme"
+	"fyne.io/fyne/v2/widget"
+	"image/color"
+	"strconv"
+)
+
+// @formatter:off
+
+var (
+			bgsc = canvas.NewRectangle(color.NRGBA{R: 150, G: 180, B: 160, A: 240}) // Light green
+			bgwc = canvas.NewRectangle(color.NRGBA{R: 110, G: 160, B: 255, A: 150}) // Light blue, lower number for A: means less opaque, or more transparent
+		
+		pie float64
+		
+			outputLabel1 = widget.NewLabel("\nSelect one of the brightly-colored panels to estimate π via featured method...\n\n")
+			scrollContainer1 = container.NewVScroll(outputLabel1)
+		
+			myApp = app.New()
+			window1 = myApp.NewWindow("Rick's Pi calculation Demo, set #1")
+			currentDone    chan bool
+)
+
+func main() {
+	countAndLogSLOC() 
+	calculating = false
+	myApp.Settings().SetTheme(theme.LightTheme()) 
+	window1.Resize(fyne.NewSize(1900, 1600))
+
+	scrollContainer1 = container.NewVScroll(outputLabel1)
+	
+	scrollContainer1.SetMinSize(fyne.NewSize(1900, 930)) // was 1900, 1050 before adding the scoreBoard, which required this adjustment 
+	
+	outputLabel1.Wrapping = fyne.TextWrapWord 
+
+		coloredScroll := container.NewMax(bgsc, scrollContainer1) 
+	
+		windowContent := container.NewMax(bgwc, coloredScroll) 
+
+/*
+.
+.
+ */
+	terminalDisplay := widget.NewTextGrid()
+	terminalDisplay.SetText("Terminal Output:\n\nWaiting for calculation...")
+
+	// Button only being used as a title-label for nifty_scoreBoard
+	calcButton := widget.NewButton("Calculate Pi on a ScoreBoard", func() {
+		updateOutput1("\n- * - * - that button does nothing - * - * -\n\n")
+	})
+
+	contentForScoreBoard := container.NewVBox(
+		calcButton,
+		terminalDisplay,
+	)
+/*
+.
+.
+ */
+	// Custom colored ::: Buttons1 - - - - - - - - - follow - - - - - - - - - - - v v v v v v v v v - - - - - - 
+	/*
+	.
+	.
+	 */
+	archimedesBtn1 := NewColoredButton(
+	"Archimedes method for finding π, modified by Richard Woolley\n" +
+		"easy to understand geometric method using big.Float variables\n" +
+		"produces 3,012 digits of delicious Pi in under a minute, 230BCE\n" +
+		"             -*-*-*- Rick's personal favorite -*-*-*-          ",
+		color.RGBA{255, 110, 110, 215},
+		
+		func() {
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			// We want to cause the button that corresponds to the currently executing method to remain bright, while the other buttons remain dimmed during calculating ...
+			for _, btn := range archiBut { 
+				calculating = true 
+				btn.Enable() 
+			} //  ... we do it like this ^ ^ ^ because, we are inside the creation of archimedesBtn1 [ it was the simplest way to deal with a timing and scoping issue ]
+			currentDone = make(chan bool) 
+			updateOutput1("\nRunning ArchimedesBig...\n\n")
+			go func(done chan bool) {
+					defer func() { 
+						calculating = false
+						updateOutput1("Calculation definitely finished; possibly aborted\n")
+					}()
+				ArchimedesBig(updateOutput1, done) // ::: func < - - - - - - - - - - - - - < -
+					calculating = false
+					for _, btn := range buttons1 {
+						btn.Enable()
+					}
+			}(currentDone)
+		},
+	)
+	/*
+	.
+	.
+	 */
+	
+	JohnWallisBtn1 := NewColoredButton(
+	"John Wallis infinite series -- 40 billion iterations -- runs 5m30s\n" +
+		"π = 2 * ((2/1)*(2/3)) * ((4/3)*(4/5)) * ((6/5)*(6/7)) ...\n" +
+		"only manages to do 10 digits of Pi in well-over five minutes\n" +
+		"an infinite series circa 1655    --- served here by Rick Woolley ---",
+		color.RGBA{110, 110, 255, 185}, 
+		
+		func() {
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			for _, btn := range walisBut {
+				btn.Enable()
+			}
+			currentDone = make(chan bool) 
+			updateOutput1("\nRunning John Wallis...\n\n")
+			go func(done chan bool) { 
+					defer func() { 
+						calculating = false 
+						updateOutput1("Calculation definitely finished; possibly aborted\n")
+					}()
+				JohnWallis(updateOutput1, done) 
+					calculating = false
+					for _, btn := range buttons1 {
+						btn.Enable()
+					}
+			}(currentDone)
+			fmt.Printf("here at the end of JohnWallisBtn1 calculating is %t\n", calculating)
+		},
+	)
+/*
+.
+.
+ */
+
+	SpigotBtn1 := NewColoredButton(
+	"The Spigot Algorithm, a Leibniz series. Served hot, bite by byte\n" +
+		"spits out a nearly-unlimited, continuous stream of Pi goodness\n" +
+		"This trick made possible by a bit of code mooched off of GitHub\n" +
+		"bakes π without using any floating-point arithmetic",
+		color.RGBA{255, 255, 100, 235},
+		
+		func() {
+			var spigotDigits int = 1460 // to resolve a scoping issue 
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			for _, btn := range spigotBut {
+				calculating = true
+				btn.Enable()
+			}
+			currentDone = make(chan bool)
+			updateOutput1("\nRunning The Spigot...\n\n")
+			
+			// In the case of the spigot, retain this dialog please. 
+			showCustomEntryDialog(
+				"Input Desired number of digits",
+				"Any number less than 1461",
+				func(input string) {
+					if input != "" { // This if-else is part of the magic that allows us to dismiss a dialog and allow others to run after the dialog is canceled/dismissed.
+						input = removeCommasAndPeriods(input) 
+						val, err := strconv.Atoi(input)
+						if err != nil { // we may force val to become 460, or leave it alone ...
+							fmt.Println("Error converting input:", err)
+							updateOutput1("\nInvalid input, using default 1460 digits\n")
+							val = 1460
+						} else if val <= 0 {
+							updateOutput1("\nInput must be positive, using default 1460 digits\n")
+							val = 1460
+						} else if val > 1460 {
+							updateOutput1("\nInput must be less than 1461 -- using default of 1460 digits\n")
+							val = 1460 
+						} else {
+							spigotDigits = val 
+						}
+						
+						go func(done chan bool) { 
+								defer func() { 
+									calculating = false 
+									updateOutput1("\nCalculation definitely finished; possibly aborted\n")
+								}()
+							TheSpigot(updateOutput1, spigotDigits, done) 
+								calculating = false
+								for _, btn := range buttons1 {
+									btn.Enable()
+								}
+						}(currentDone)
+					} else {
+						// dialog canceled 
+						updateOutput1("\nspigot calculation canceled, make another selection\n")
+						for _, btn := range buttons1 {
+							btn.Enable()
+						}
+						calculating = false // ::: this is the trick to allow others to run after the dialog is canceled/dismissed.
+					}
+				},
+			)
+		}, 
+	)
+	/*
+	.
+	.
+	 */ 
+	
+	ChudnovskyBtn1 := NewColoredButton(
+	"Chudnovsky -- by David & Gregory Chudnovsky -- late 1980s\n" +
+		"extremely efficient, quickly bakes world-record quantities of Pi\n" +
+		"this algorithm is a rapidly converging infinite series which\n" +
+		"leverages properties of j-invariant from elliptic function theory",
+		color.RGBA{100, 255, 100, 215}, 
+		
+		func() {
+			// 
+			var chudDigits int
+				if calculating {
+					return
+				}
+				calculating = true
+				for _, btn := range buttons1 {
+					btn.Disable()
+				}
+				for _, btn := range chudBut { 
+					calculating = true 
+					btn.Enable() 
+				}
+			currentDone = make(chan bool) // ::: New channel per run
+			updateOutput1("\nRunning Chudnovsky...\n\n")
+	
+			// unsure about retaining dialog for chud
+			showCustomEntryDialog(
+				"Input Desired number of digits",
+				"Any number less than 49,999",
+				func(input string) {
+					if input != "" { // This if-else is part of the magic that allows us to dismiss a dialog and allow others to run after the dialog is canceled/dismissed.
+						input = removeCommasAndPeriods(input)
+						val, err := strconv.Atoi(input)
+						if err != nil {
+							fmt.Println("Error converting input:", err)
+							updateOutput1("Invalid input, using default 49,000 digits")
+						} else if val <= 0 {
+							updateOutput1("Input must be positive, using default 49000 digits")
+						} else if val > 50000 {
+							updateOutput1("Input must be less than 50,000 -- using default of 49,000 digits")
+						} else {
+							chudDigits = val
+						}
+						go func(done chan bool) { 
+								defer func() { 
+									calculating = false
+									updateOutput1("Calculation definitely finished; possibly aborted\n")
+								}()
+							chudnovskyBig(updateOutput1, chudDigits, done) 
+								calculating = false
+								for _, btn := range buttons1 {
+									btn.Enable()
+								}
+						}(currentDone)
+					} else {
+						// dialog canceled 
+							updateOutput1("chudnovsky calculation canceled, make another selection")
+							for _, btn := range buttons1 {
+								btn.Enable()
+							}
+							calculating = false // ::: this is the trick to allow others to run after the dialog is canceled/dismissed.
+					}
+				},
+			)
+		},
+	)
+	/*
+	.
+	.
+	 */
+
+	MontyBtn1 := NewColoredButton(
+		"Monte Carlo method for converging on π  --  big floats, & float64\n" +
+			"Flavor: no fancy equations are used, only Go's pure randomness\n" +
+			"4 digits of pi in 21s; 7 digits possible in 1h30m with a 119k grid\n" +
+			"                   -*-*- Rick's second-favorite method -*-*-     ",
+		color.RGBA{255, 255, 100, 235},
+
+		func() {
+			var MontDigits string
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			for _, btn := range montBut {
+				calculating = true
+				btn.Enable()
+			}
+			currentDone = make(chan bool) 
+			updateOutput1("\nRunning Monte Carlo ...\n\n")
+
+			showCustomEntryDialog(
+				"Input Desired number of grid elements",
+				"max 120,000; 10,000 will produce 4 pi digits, 110,00 may get you 5 digits",
+				func(input string) {
+					if input != "" { // This if-else is part of the magic that allows us to dismiss a dialog and allow others to run after the dialog is canceled/dismissed.
+						input = removeCommasAndPeriods(input)
+						val, err := strconv.Atoi(input) 
+						if err != nil {
+							fmt.Println("Error converting input:", err)
+							updateOutput1("Invalid input, using default 10,000 digits")
+						} else if val <= 1 {
+							updateOutput1("Input must be greater than 1, using default 10,000 digits")
+						} else if val > 120000 {
+							updateOutput1("Input must be less than 120,001 -- using default of 10,000 digits")
+						} else {
+							MontDigits = strconv.Itoa(val) 
+						}
+						go func(done chan bool) { 
+								defer func() { 
+									calculating = false 
+									updateOutput1("Calculation definitely finished; possibly aborted\n")
+								}()
+							Monty(updateOutput1, MontDigits, done)
+								calculating = false
+								for _, btn := range buttons1 {
+									btn.Enable()
+								}
+						}(currentDone)
+					} else {
+						// dialog canceled 
+						updateOutput1("Monte Carlo calculation canceled, make another selection")
+						for _, btn := range buttons1 {
+							btn.Enable()
+						}
+						calculating = false // ::: this is the trick to allow others to run after the dialog is canceled/dismissed.
+					}
+				},
+			)
+		},
+	)
+	/*
+		.
+		.
+	*/
+	
+	GaussBtn1 := NewColoredButton(
+	"Gauss-Legendre -- C F Gauss, refined by Adrien-Marie Legendre\n" +
+		"π ≈ (aₙ + bₙ)² / (4 tₙ)\n" +
+		"only manages to do 10 digits of Pi in well-over five minutes\n" +
+		"an infinite series circa 1655    --- served here by Rick Woolley ---",
+		color.RGBA{100, 255, 100, 215},
+		
+		func() {
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			for _, btn := range gaussBut {
+				calculating = true
+				btn.Enable()
+			}
+			currentDone = make(chan bool)
+			updateOutput1("\nRunning Gauss...\n\n")
+			go func(done chan bool) { 
+					defer func() {  
+						calculating = false 
+						updateOutput1("Calculation definitely finished; possibly aborted\n")
+					}()
+				Gauss_Legendre(updateOutput1, done) // ::: func < - - - - - - - - - - - - - < -
+					calculating = false
+					for _, btn := range buttons1 {
+						btn.Enable()
+					}
+			}(currentDone)
+		},
+	)
+	/*
+	.
+	.
+	 */
+	
+	CustomSeriesBtn1 := NewColoredButton(
+	"Custom series -- I don't remember where it's from ... \n" +
+		"but it is very quick -- 4s gets us 9 digits of Pi\n" +
+		"π = (4/1) - (4/3) + (4/5) - (4/7) + (4/9) - (4/11) + (4/13) - (4/15) ...",
+		color.RGBA{255, 120, 120, 215}, // Greenish for variety
+		
+		func() {
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			for _, btn := range customBut {
+				calculating = true
+				btn.Enable()
+			}
+			currentDone = make(chan bool) 
+			updateOutput1("\nRunning Custom Series ...\n\n")
+			go func(done chan bool) { 
+					defer func() { 
+						calculating = false
+						updateOutput1("Calculation definitely finished; possibly aborted\n")
+					}()
+				CustomSeries(updateOutput1, done)
+					calculating = false
+					for _, btn := range buttons1 {
+						btn.Enable()
+					}
+			}(currentDone)
+		},
+	)
+	/*
+	.
+	.
+	 */
+	
+	GregoryLeibnizBtn1 := NewColoredButton(
+	"Gregory-Leibniz -- runs 20sec -- gives 10 digits of Pi\n" +
+		"James Gregory 1638–1675  Gottfried Wilhelm Leibniz 1646-1716\n" +
+		"π = 4 * ( 1 - 1/3 + 1/5 - 1/7 + 1/9 ...) ",
+		color.RGBA{110, 110, 255, 185},
+		
+		func() {
+			if calculating {
+				return
+			}
+			calculating = true
+			for _, btn := range buttons1 {
+				btn.Disable()
+			}
+			for _, btn := range gottfieBut { 
+				calculating = true
+				btn.Enable()
+			}
+			currentDone = make(chan bool)
+			updateOutput1("\nRunning Gregory-Leibniz...\n\n")
+			go func(done chan bool) { 
+				defer func() { 
+					calculating = false
+					updateOutput1("Calculation definitely finished; possibly aborted\n")
+				}()
+				GregoryLeibniz(updateOutput1, done) 
+				calculating = false
+				for _, btn := range buttons1 {
+					btn.Enable()
+				}
+			}(currentDone)
+		},
+	)
+	/*
+	.
+	.
+	 */
+	
+	archiBut = []*ColoredButton{archimedesBtn1} // All of these 8 *But items are a trick/kluge used as bug preventions -- to keep methods from being started or restarted in parallel (over-lapping) 
+	walisBut = []*ColoredButton{JohnWallisBtn1} 
+	spigotBut = []*ColoredButton{SpigotBtn1} 
+	chudBut = []*ColoredButton{ChudnovskyBtn1} 
+	montBut = []*ColoredButton{MontyBtn1} 
+	gaussBut = []*ColoredButton{GaussBtn1}
+	customBut = []*ColoredButton{CustomSeriesBtn1}
+	gottfieBut = []*ColoredButton{GregoryLeibnizBtn1}
+	
+	buttons1 = []*ColoredButton{archimedesBtn1, JohnWallisBtn1, SpigotBtn1, ChudnovskyBtn1, MontyBtn1, GaussBtn1, CustomSeriesBtn1, GregoryLeibnizBtn1,} // used only for range btn.Enable()
+
+		content1 := container.NewVBox(widget.NewLabel("\nSelect a method to estimate π:\n"),
+			container.NewGridWithColumns(4, archimedesBtn1, JohnWallisBtn1, SpigotBtn1,
+				ChudnovskyBtn1, MontyBtn1, GaussBtn1, CustomSeriesBtn1, GregoryLeibnizBtn1, contentForScoreBoard),
+			windowContent,
+		)
+/*
+.
+.
+ */
+	// ::: drop-down menus -- same for all windows  -  -  --  -  -  --  -  -  --  -  -  --  -  -  --  -  -  --  -  -  --  -  -  --  -  -  --  
+	logFilesMenu := fyne.NewMenu("Log-Files",
+		fyne.NewMenuItem("View Log 1", func() { dialog.ShowInformation("Log Files", "Viewing Log 1", window1) }),
+		fyne.NewMenuItem("View Log 2", func() { dialog.ShowInformation("Log Files", "Viewing Log 2", window1) }),
+	)
+	additionalMethodsMenu := fyne.NewMenu("Other-Methods",
+		fyne.NewMenuItem("Home-Page (Pi methods)", func() { window1.Show() }),
+		fyne.NewMenuItem("Second-page of Pi methods", func() { createWindow2(myApp).Show() }), 
+		fyne.NewMenuItem("Odd Pi calculators", func() { createWindow3(myApp).Show() }),
+		fyne.NewMenuItem("Misc Maths", func() { createWindow4(myApp).Show() }), // maybe our roots demo will live here some day
+	)
+	optionsMenu := fyne.NewMenu("Options",
+		fyne.NewMenuItem("Begin the ScoreBoard of Pi", func() {
+			
+			// dialog.ShowInformation("ScoreBoard", "Use Abort in Menu\nPrior to dismissing with OK", window1)
+			if calculating {
+				fmt.Println("Calculation already in progress")
+				return
+			}
+			calculating = true
+			currentDone = make(chan bool)
+			termsCount = 0
+
+			go func(done chan bool) {
+				defer func() {
+					calculating = false
+					terminalDisplay.SetText(fmt.Sprintf("Terminal Output:\n\nCalculation stopped.\nFinal Pi: %.11f\nTerms: %d", <-pichan, termsCount))
+				}()
+
+				pie := nifty_scoreBoardG(func(text string) {
+					terminalDisplay.SetText(text)
+				}, done)
+
+				if pie != 0.0 {
+					terminalDisplay.SetText(fmt.Sprintf("Terminal Output:\n\nComputed Value of Pi:\t\t%.11f\n# of Nilakantha Terms:\t\t%d", pie, termsCount))
+				}
+			}(currentDone)
+		}),
+		fyne.NewMenuItem("Abort any currently executing method", func() {
+			if currentDone == nil {
+				updateOutput1("\nNo active calculation to abort, no such currentDone channel exists\n")
+				fmt.Println("No active calculation to abort, no such currentDone channel exists")
+				return
+			}
+			select {
+			case <-currentDone:
+				updateOutput1("\nMenu select determined that currentDone-chan had already been closed; all Goroutines were PREVIOUSLY notified to terminate\n")
+				fmt.Println("Menu select determined that currentDone-chan had already been closed; all Goroutines were PREVIOUSLY notified to terminate")
+			default:
+				close(currentDone)
+				updateOutput1("\nTermination signals were sent to all current processes that may be listening\n")
+				fmt.Println("Termination signals were sent to all current processes that may be listening")
+			}
+		}),
+		fyne.NewMenuItem("Show the terminal -- Cmd+Tab to return", func() {
+			err := openTerminal()
+			if err != nil {
+				fmt.Println(err)
+				return
+			}		}),
+	)
+
+	mainMenu := fyne.NewMainMenu(logFilesMenu, additionalMethodsMenu, optionsMenu)
+	window1.SetMainMenu(mainMenu)
+	
+	windowWithBackground := container.NewMax(bgwc, content1)
+	
+	window1.SetContent(windowWithBackground)
+	
+	window1.ShowAndRun() 
+}
+// window2.go
+package main
+
+import (
+	"fmt"
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/container"
+	"fyne.io/fyne/v2/dialog"
+	"fyne.io/fyne/v2/widget"
+	"image/color"
+	"strconv"
+)
+
+// @formatter:off
+
+var (
+	bgsc2 = canvas.NewRectangle(color.NRGBA{R: 130, G: 160, B: 250, A: 140}) // Light blue // was: 130, 160, 250, 160 ::: - -
+	bgwc2 = canvas.NewRectangle(color.NRGBA{R: 110, G: 255, B: 160, A: 150}) // Light green ::: - -
+	outputLabel2 = widget.NewLabel("Classic Pi calculators, make a selection") // ::: - -
+	scrollContainer2 = container.NewScroll(outputLabel2) // ::: - -
+	window2 = myApp.NewWindow("Rick's Pi calculation Demo, set #2") // ::: - -
+	/*
+	Additional global variables and types will be found in globals.go (and there may also be one or two lying around in random .go files; I am ok with having ...
+	... grok re-organize them as seems fitting; including changing some of them to being local variables -- even if they then must be added to signatures etc. ...
+	what ever complies with best practices. 
+	*/
+)
+
+// Three Additional Windows, window2, window3, and window4 are currently defined herein; though 3 and 4 will migrate to their own files if/when they become real: 
+// ::: ------------------------------------------------------------------------------------------------------------------------------------------------------------
+func createWindow2(myApp fyne.App) fyne.Window {
+	window2.Resize(fyne.NewSize(1900, 1600))
+	outputLabel2.Wrapping = fyne.TextWrapWord
+	scrollContainer2.SetMinSize(fyne.NewSize(1900, 1000))
+
+	coloredScroll2 := container.NewMax(bgsc2, scrollContainer2) // Light blue-ish scroll bg
+
+	// I may want to retain this dual input dialog, especially for Nilakantha 
+	getDualInput2 := func(title, prompt1, prompt2, default1, default2 string, callback func(string, string, bool)) {
+		calculating = true
+		for _, btn := range buttons2 {
+			btn.Disable()
+		}
+		entry1 := widget.NewEntry()
+		entry1.SetText(default1)
+		entry2 := widget.NewEntry()
+		entry2.SetText(default2)
+		submitButton := widget.NewButton("Run with those values",
+			func() {
+				callback(entry1.Text, entry2.Text, true)
+				dialog.NewInformation("Submitted", "Values submitted", window2).Hide() // Hack to close dialog
+				calculating = true
+				for _, btn := range buttons2 {
+					btn.Disable()
+				}
+			})
+		form := container.NewVBox(
+			widget.NewLabel(prompt1), entry1,
+			widget.NewLabel(prompt2), entry2,
+			// container.NewHBox(submitButton, cancelButton), // ?? still get Close button ? need no cancelButton ??
+			container.NewHBox(submitButton),
+		)
+		d := dialog.NewCustom(title, "Dismiss dialogBox", form, window2)
+
+		d.Resize(fyne.NewSize(400, 300))
+		d.Show()
+	}
+
+	
+	done := make(chan bool) 
+
+	RootsBtn2 := NewColoredButton(
+		"Roots\n" +
+			"2 or 3\n" +
+			"any integer\n" +
+			"                   -*-*- Rick's own-favorite method -*-*-     ", 
+		color.RGBA{255, 255, 100, 235},
+		func() { 
+			var radical_index int 
+			if calculating {                                                // ... and yet, no actions are called for by having done all of this!!
+				return                                  // several levels of nested functions of various morphs. All of it subsumed by a mere label: RootsBtn2
+			} 
+			calculating = true
+			for _, btn := range buttons2 {
+				btn.Disable()
+			}
+			for _, btn := range rootBut2 {
+				calculating = true
+				btn.Enable()
+			}
+			currentDone = make(chan bool) // New channel per run
+			updateOutput2("\nRunning Roots ...\n\n")
+
+			var promptFor2or3Input func() 
+			promptFor2or3Input = func() { 
+				showCustomEntryDialog2( 
+					"Input 2 for square root, 3 for cube root", 
+					"Enter 2 or 3 only", 
+					func(input string) { 
+						if input != "" { 
+							val, err := strconv.Atoi(input)
+							if err != nil {
+								updateOutput2("\nInput error: Please enter a valid number (2 or 3)\n")
+								promptFor2or3Input() // Re-prompt on invalid input
+								return
+							}
+							if val == 2 || val == 3 { // Valid input
+								radical_index = val
+								fmt.Printf("\nin else if or, val is:%d, radical_index: %d\n", val, radical_index)
+								fmt.Printf("Input: %d\n", val)
+
+								// Proceed with calculation
+								go func(done chan bool) {
+									defer func() {
+										calculating = false
+										workPiece = 0
+										updateOutput2("Calculation definitely finished; possibly aborted\n")
+									}()
+									xRootOfy(updateOutput2, radical_index, done)
+									calculating = false
+									for _, btn := range buttons2 {
+										btn.Enable()
+									}
+								}(currentDone)
+							} else { // Input is a number but not 2 or 3
+								updateOutput2(fmt.Sprintf("\nInvalid input: %d. Please enter 2 or 3\n", val))
+								promptFor2or3Input() // Re-prompt
+							}
+						} else { // Dialog canceled
+							updateOutput2("Roots canceled, make another selection")
+							for _, btn := range buttons2 {
+								btn.Enable()
+							}
+							calculating = false
+						}
+					},
+				)
+			}
+			promptFor2or3Input()
+		},
+	)
+	/*
+		.
+		.
+	*/
+	
+	
+	// ::: nila 3 goes here ??
+	NilakanthaBtn2 := NewColoredButton(
+		"Nilakantha -- input iterations\n" +
+		"output up to 26 digits of pi",
+		color.RGBA{255, 255, 100, 235},
+	func() {
+		if calculating {
+			return
+		}
+		calculating = true
+		for _, btn := range buttons2 {
+			btn.Disable()
+		}
+		for _, btn := range nilaBut2 { 
+			calculating = true
+			btn.Enable()
+		}
+		// I may want to retain the use of this dialog for this one instance
+		getDualInput2("Input Required", "Number of iterations (suggest 300,000 -> 30,000,000  -> 300,000,000):", "Precision (suggest 128):", 
+			"30000000", "128", // 30,000,000
+			func(itersStr, precStr string, ok bool) {
+				calculating = true
+				for _, btn := range buttons2 {
+					btn.Disable()
+				}
+				if !ok {
+					updateOutput2("Nilakantha calculation canceled")
+					return
+				}
+				iters := 30000000 // 30,000,000
+				precision := 128
+				itersStr = removeCommasAndPeriods(itersStr) 
+				val1, err1 := strconv.Atoi(itersStr)
+				if err1 != nil {
+					fmt.Println("Error converting iterations val1:", err1) 
+					iters = 30000000
+				} else {
+					iters = val1
+				}
+				val2, err2 := strconv.Atoi(precStr)
+				if err2 != nil {
+					fmt.Println("Error converting precision val2:", err2)
+					updateOutput2("setting precision to 128") 
+					precision = 128
+				} else {
+					precision = val2
+				}
+				go NilakanthaBig(updateOutput2, iters, precision, done)
+				calculating = false
+				for _, btn := range buttons2 {
+					btn.Enable()
+				}
+			})
+	})
+	/*
+		.
+		.
+	*/
+
+	rootBut2 = []*ColoredButton{RootsBtn2} // All these are a trick/kluge used as bug preventions // to keep methods from being started or restarted in parallel (over-lapping)
+	nilaBut2 = []*ColoredButton{NilakanthaBtn2}
+	
+	buttons2 = []*ColoredButton{RootsBtn2, NilakanthaBtn2} // array used only for range btn.Enable()
+
+	// ::: page-2 Lay-out
+		content2 := container.NewVBox(
+			widget.NewLabel("\nSelect a method to estimate π:\n"),
+			container.NewGridWithColumns(4, RootsBtn2, NilakanthaBtn2), // we plan to populate window2 with a total of 8 buttons like these two, loosely patterned after window1
+			coloredScroll2,
+		)
+		windowContent2 := container.NewMax(bgwc2, content2) // Light green window bg
+
+		window2.SetContent(windowContent2)
+	return window2
+}
+
+
+// ::: ------------------------------------------------------------------------------------------------------------------------------------------------------------
+func createWindow3(myApp fyne.App) fyne.Window {
+	// Planning to have similar structure to createWindow2
+	window3 := myApp.NewWindow("Odd Pi calculators")
+	window3.Resize(fyne.NewSize(1900, 1600))
+	outputLabel3 := widget.NewLabel("Odd Pi calculators, make a selection")
+	outputLabel3.Wrapping = fyne.TextWrapWord
+	scrollContainer3 := container.NewScroll(outputLabel3)
+	scrollContainer3.SetMinSize(fyne.NewSize(1900, 1300))
+	buttonContainer3 := container.NewGridWithColumns(4,
+		widget.NewButton("Button 9", func() {}),
+		widget.NewButton("Button 10", func() {}),
+		widget.NewButton("Button 11", func() {}),
+		widget.NewButton("Button 12", func() {}),
+		widget.NewButton("Button 13", func() {}),
+		widget.NewButton("Button 14", func() {}),
+		widget.NewButton("Button 15", func() {}),
+		widget.NewButton("Button 16", func() {}),
+	)
+	content3 := container.NewVBox(buttonContainer3, scrollContainer3)
+	window3.SetContent(content3)
+	return window3
+}
+
+// ::: ------------------------------------------------------------------------------------------------------------------------------------------------------------
+func createWindow4(myApp fyne.App) fyne.Window {
+	// Planning to have similar structure to createWindow2
+	window4 := myApp.NewWindow("Misc Maths")
+	window4.Resize(fyne.NewSize(1900, 1600))
+	outputLabel4 := widget.NewLabel("Misc Maths, make a selection")
+	outputLabel4.Wrapping = fyne.TextWrapWord
+	scrollContainer4 := container.NewScroll(outputLabel4)
+	scrollContainer4.SetMinSize(fyne.NewSize(1900, 1300))
+	buttonContainer4 := container.NewGridWithColumns(4,
+		widget.NewButton("Button 17", func() {}), widget.NewButton("Button 18", func() {}), widget.NewButton("Button 19", func() {}), widget.NewButton("Button 20", func() {}),
+		widget.NewButton("Button 21", func() {}), widget.NewButton("Button 22", func() {}), widget.NewButton("Button 23", func() {}), widget.NewButton("Button 24", func() {}),
+	)
+	content4 := container.NewVBox(buttonContainer4, scrollContainer4)
+	window4.SetContent(content4)
+	return window4
+}
+// coloredButton.go
+package main
+
+import (
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/widget"
+	"image/color"
+)
+
+// @formatter:off
+
+type ColoredButton struct {
+	widget.Button
+	BackgroundColor color.Color
+}
+func NewColoredButton(label string, backgroundColor color.Color, tapped func()) *ColoredButton {
+	btn := &ColoredButton{BackgroundColor: backgroundColor}
+	btn.Text = label
+	btn.OnTapped = tapped
+	btn.ExtendBaseWidget(btn)
+	return btn
+}
+
+
+// Custom renderer methods for coloredButton
+func (b *ColoredButton) CreateRenderer() fyne.WidgetRenderer {
+	text := widget.NewLabel(b.Text)
+	text.Wrapping = fyne.TextWrapWord // Enable word wrapping
+	background := canvas.NewRectangle(b.BackgroundColor)
+	border := canvas.NewRectangle(color.Transparent)
+	border.StrokeColor = color.Gray{0x60} // was 80 // space between buttons ? 
+	border.StrokeWidth = 3 // was 2
+	return &coloredButtonRenderer{
+		button:     b,
+		text:       text,
+		background: background,
+		border:     border,
+		objects:    []fyne.CanvasObject{background, border, text},
+	}
+}
+
+
+type coloredButtonRenderer struct {
+	button     *ColoredButton
+	text       *widget.Label // Change to *widget.Label
+	background *canvas.Rectangle
+	border     *canvas.Rectangle
+	objects    []fyne.CanvasObject
+}
+
+
+func (r *coloredButtonRenderer) Refresh() {
+	bgColor := r.button.BackgroundColor
+	if r.button.Disabled() {
+		if rgba, ok := bgColor.(color.RGBA); ok {
+			rgba.A = 145 // ::: Lower opacity for disabled state
+			r.background.FillColor = rgba
+		}
+	} else {
+		r.background.FillColor = bgColor
+	}
+	r.text.SetText(r.button.Text)
+	r.background.Refresh()
+	r.border.Refresh()
+	r.text.Refresh()
+}
+/* old non-dimming refresh 
+func (r *coloredButtonRenderer) Refresh() {
+	r.background.FillColor = r.button.BackgroundColor
+	r.text.SetText(r.button.Text) // Use SetText
+	r.background.Refresh()
+	r.border.Refresh()
+	r.text.Refresh()
+}
+ */
+
+func (r *coloredButtonRenderer) Layout(size fyne.Size) {
+	r.background.Resize(size)
+	r.border.Resize(size)
+	r.text.Resize(fyne.NewSize(size.Width-20, size.Height-20)) // were -20 -20   ::: ineffective   
+	r.text.Move(fyne.NewPos(15, 10)) // 10  10  ::: x is left margin, y is top margin;  10  1000 moves text down off the buttons
+}
+func (r *coloredButtonRenderer) MinSize() fyne.Size {
+	textSize := r.text.MinSize()
+	return fyne.NewSize(fyne.Max(textSize.Width+20, 200), fyne.Max(textSize.Height+20, 50)) // +20,200  +20,50 ::: ineffective 
+}
+func (r *coloredButtonRenderer) BackgroundColor() color.Color {
+	return r.button.BackgroundColor
+}
+func (r *coloredButtonRenderer) Objects() []fyne.CanvasObject {
+	return r.objects
+}
+func (r *coloredButtonRenderer) Destroy() {
+	// No-op
+}
+// roots.go
+package main
+
+import (
+	"fmt"
+	"math"
+	"os"
+	"sort"
+	"strconv"
+	"time"
+)
+
+// @formatter:off
+
+// Entry point of method/algorithm  
+func xRootOfy(fyneFunc func(string), radical_index int, done chan bool) { // calculates either square or cube root of any integer
+
+	usingBigFloats = false
+
+	var index = 0 // counter used in the for loop in this func :: is also passed to the principal func readTheTableOfPP
+
+	TimeOfStartFromTop := time.Now()
+
+	radical_index, workPiece := setStateOfSquareOrCubeRoot(fyneFunc, radical_index, done) // Obtain workPiece, and set/adjust a global precision val based on the workPiece : the number to solve for.
+
+	buildTableOfPerfectProducts(radical_index) // 800,000 entries, 400,000 pairs
+
+	// The following section consists of the principal for loop with a conditional break ------------------------------------------------------------------
+	// -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+	startBeforeCall := time.Now()
+
+	// read the table built half a dozen lines prior; index will be a sequence of even numbers 
+	for index < 400000 { // the table has 825,000 entries, > 410,000 pairs; so index increments by 2 at the bottom of this loop (200,000 iterations)
+
+		// report on progress of results 
+		readTheTableOfPP(index, startBeforeCall, radical_index, workPiece) // pass-in an index to the table: 400,000 indexes corresponding to the number of pairs of entries
+
+		handlePerfectSquaresAndCubes(TimeOfStartFromTop, radical_index, workPiece) // handle the rare case of a perfect square or cube (report to a file, that is all that is done here)
+
+		if diffOfLarger == 0 || diffOfSmaller == 0 { // Then, it was a perfect square or cube; so, we need to ...
+			break // ... out of the for loop because we are done : the workpiece was either a perfect square or a perfect cube
+		}
+
+		if index == 80000 {
+			fmt.Println("\n80,000 ... still working ...")
+		}
+		if index == 160000 {
+			fmt.Println("\n160,000 ... still working ...")
+		}
+		if index == 240000 {
+			fmt.Println("\n240,000 ... still working ...")
+		}
+		if index == 320000 {
+			fmt.Println("\n320,000 ... still working, almost there ...\n")
+		}
+
+		index = index + 2 // increment the index and read the table again
+	} // end of for loop // the above break statement is NOT the only way to exit this for loop, it also terminates after 200,000 iterations of index
+
+	// ::: Show the final result 
+	// All of the remaining sections are conditional for workpiece NOT being a perfect square or cube
+	if perfectResult2 == 0 && perfectResult3 == 0 { // Then, it was NOT a perfect square or cube, so handle that case
+		// the remaining sections are only reached after having exited the primary for loop above via a break statement or an exaustive reading of the table ------------
+		// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+		// calculate elapsed time
+		t_s2 := time.Now()
+		elapsed_s2 := t_s2.Sub(TimeOfStartFromTop)
+
+		// the following sections log the final results to a text file (and also does one conditional Printf) -------------------------------------------------
+		// -----------------------------------------------------------------------------------------------------------------------------------------------------
+		fileHandle, err31 := os.OpenFile("dataLog-From_calculate-pi-and-friends.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600) // append to file
+		check(err31)                                                                                                             // ... gets a file handle to dataLog-From_calculate-pi-and-friends.txt
+		defer fileHandle.Close()                                                                                                 // It’s idiomatic to defer a Close immediately after opening a file.
+
+		Hostname, _ := os.Hostname()
+		_, err30 := fmt.Fprintf(fileHandle, "\n  -- %d root of %d by a ratio of perfect Products -- selection #%d on %s \n", radical_index, workPiece, Hostname)
+		check(err30)
+
+		current_time := time.Now()
+		_, err36 := fmt.Fprint(fileHandle, "was run on: ", current_time.Format(time.ANSIC), "\n")
+		check(err36)
+
+		// index = index
+		_, err35 := fmt.Fprintf(fileHandle, "%d was total Iterations \n", index)
+		check(err35)
+
+		// Sort the slice sortedResults by its pdiff field :
+		// -----------------------------------------------------------------------------------------------------------
+		sort.Slice(sortedResults, func(i, j int) bool { return sortedResults[i].pdiff < sortedResults[j].pdiff })
+
+		/*
+		   // print the sorted slice twice; once for each field
+		       fmt.Println("Here are the results:")
+		       resultCount := 1
+		       for _, result := range sortedResults {
+		           fmt.Printf("%d, %0.16f \n", resultCount, result.result)
+		           resultCount++
+		       }
+		       fmt.Println("And here are the p-diffs:")
+		       pdiffCount := 1
+		       for _, result := range sortedResults {
+		           fmt.Printf("%d, %0.16f \n", pdiffCount, result.pdiff)
+		           pdiffCount++
+		       }
+		*/
+
+		// display and print the best-fitting result based solely on the lowest pdiff :
+		// -----------------------------------------------------------------------------
+
+		// display the best fitting result :
+		if radical_index == 2 {
+			fmt.Printf("%0.9f, is the best approximation for the Square Root of %d \n", sortedResults[0].result, workPiece)
+		}
+		if radical_index == 3 {
+			fmt.Printf("%0.9f, is the best approximation for the  Cube  Root of %d \n", sortedResults[0].result, workPiece)
+		}
+
+		// Fprint/log the best fitting result :
+		if radical_index == 2 {
+			_, err48 := fmt.Fprintf(fileHandle, "%0.9f, is the best approximation for the Square Root of %d \n", sortedResults[0].result, workPiece)
+			check(err48)
+		}
+		if radical_index == 3 {
+			_, err49 := fmt.Fprintf(fileHandle, "%0.9f, is the best approximation for the  Cube  Root of %d \n", sortedResults[0].result, workPiece)
+			check(err49)
+		}
+
+		TotalRun := elapsed_s2.String() // cast time durations to a String type for Fprintf "formatted print"
+		_, err57 := fmt.Fprintf(fileHandle, "Total run was %s \n ", TotalRun)
+		check(err57)
+
+		fileHandle.Close()
+
+		/*
+		   // all this crap with these 3 arrays was cute, but it does not sort as a record with fields, so it is not what I want
+		               array_len := len(List_of_2_results_case18)
+		               _ , err8 := fmt.Fprintf(fileHandle, "%d was len of array \n", array_len)
+		                   check(err8)
+		               if array_len > 0 {
+		                   index := 0
+		                   for array_len > 0 {
+		                       result_from_array := List_of_2_results_case18[index]
+		                       array_len--
+		                        _ , err9 := fmt.Fprintf(fileHandle, "%0.16f with a diff of %d, percent diff of %0.4f percent\n",
+		                           result_from_array, corresponding_diffs[index], diffs_as_percent[index]*100000)
+		                               check(err9)
+		                       index++
+		                   }
+		               }
+		               List_of_2_results_case18 = nil
+		               corresponding_diffs = nil
+		*/
+	}
+	// we need to end here ::: ???
+	return // is this the way to end it ??
+}
+
+// report to a file the rare case of having found a perfect square 
+func handlePerfectSquaresAndCubes(TimeOfStartFromTop time.Time, radical_index, workPiece int) {
+	// the next sub-section detects, traps, and reports the detection of either a perfect square of a perfect cube ------------------
+	// ... it also is responsible for causing the algorithm to terminate via a break if workpiece was a perfect square or cube
+	// -------------------------------------------------------------------------------------------------------------------------------
+	if diffOfLarger == 0 || diffOfSmaller == 0 { // Then, it was a perfect square or cube
+
+		t_s1 := time.Now()
+		elapsed_s1 := t_s1.Sub(TimeOfStartFromTop) // need to pass this to the func we are planning to build ?? NO, "two" "perfect".
+
+		fileNameToWriteTo := "dataLog-From_calculate-pi-and-friends.txt" // would have been used/needed if we emplement a func for this.
+
+		// fileHandle, err1 := os.OpenFile("dataLog-From_calculate-pi-and-friends.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
+		fileHandle, err1 := os.OpenFile(fileNameToWriteTo, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0600)
+		check(err1)              // ... gets a file handle to dataLog-From_calculate-pi-and-friends.txt
+		defer fileHandle.Close() // It’s idiomatic to defer a Close immediately after opening a file.
+
+		Hostname, _ := os.Hostname()
+		_, err0 := fmt.Fprintf(fileHandle, "\n  -- %d root of %d by a ratio of PerfectProducts -- selection #%d on %s \n",
+			radical_index, workPiece, Hostname)
+		check(err0)
+
+		current_time := time.Now()
+		_, err6 := fmt.Fprint(fileHandle, "was run on: ", current_time.Format(time.ANSIC), "\n")
+		check(err6)
+
+		TotalRun := elapsed_s1.String() // cast time durations to a String type for Fprintf "formatted print"
+		_, err7 := fmt.Fprintf(fileHandle, "Total run was %s \n ", TotalRun)
+		check(err7)
+
+		if radical_index == 2 {
+			_, err8 := fmt.Fprintf(fileHandle, "the %d root of %d is %0.2f \n", radical_index, workPiece, perfectResult2)
+			check(err8)
+		}
+		if radical_index == 3 {
+			_, err38 := fmt.Fprintf(fileHandle, "the %d root of %d is %0.2f \n", radical_index, workPiece, perfectResult3)
+			check(err38)
+		}
+
+		fileHandle.Close()
+
+		// break // break out of the for loop because we are done : the workpiece was either a perfect square or a perfect cube
+
+	} // end of if :: if it was a perfect square or cube
+	// -------------------------------------------------------------  CASE 18: ------------------------------------------------------------------
+
+}
+
+func readTheTableOfPP(index int, startBeforeCall time.Time, radical_index, workPiece int) { // this gets called 400,000 times.
+
+	// The first time it is called index is 0
+
+	// read it ...
+	smallerPerfectProductOnce := Table_of_perfect_Products[index]
+	// ... and save it locally, do this just-once per func call. // ... index may be 0 up to 380,000
+	RootOfsmallerPerfectProductOnce := Table_of_perfect_Products[index+1]
+	// ^^^ also read the root wich corresponds
+
+	iter := 0
+	for iter < 410000 { // 410,000 loops. Why do we need so many?, Because we need to read through 825,000 table entries pairs
+		iter++ //  ... iters are therefore half the number of pairs. There are actually 1,600,000 items, but who's counting?
+		index = index + 2
+		largerPerfectProduct := Table_of_perfect_Products[index]
+		// to approximate the root of an imperfect square x we will need a ratio of two perfect squares wich is about equal to x
+		// ...we need to find two perfect squares such that one is about x times larger than the other
+		// get next perfect square from table for testing to see if it is more than x * bigger than smallerPerfectProductOnce
+
+		if largerPerfectProduct > smallerPerfectProductOnce*workPiece {
+			// if largerPerfectProduct is a candidate based on it being just-a-bit larger than workPiece* the smaller PP deal with that, else loop to the next potential
+
+			ProspectiveHitOnLargeSide := largerPerfectProduct                     // make a copy under a more suitable name :)
+			rootOfProspectiveHitOnLargeSide := Table_of_perfect_Products[index+1] // the current value of index plus one holds the root of largerPerfectSquare hence the root of ProspectiveHitOnLargeSide
+
+			ProspectiveHitOnSmallerSide := Table_of_perfect_Products[index-2]
+			// save that smaller one too //                               ^^ 2 now instead of 1 because we have added roots to the slice
+			rootOfProspectiveHitOnSmallerSide := Table_of_perfect_Products[index-1]
+
+			diffOfLarger = ProspectiveHitOnLargeSide - workPiece*smallerPerfectProductOnce
+			// diffOfSmaller = -(ProspectiveHitOnSmallerSide - workPiece*smallerPerfectProductOnce) // this was dumb ??
+			diffOfSmaller = workPiece*smallerPerfectProductOnce - ProspectiveHitOnSmallerSide
+
+			// detect perfect squares and set global vars to their roots -----------------------------------------------
+			if diffOfLarger == 0 {
+				fmt.Println(colorCyan, "\n The", radical_index, "root of", workPiece, "is", colorGreen,
+					float64(rootOfProspectiveHitOnLargeSide)/float64(RootOfsmallerPerfectProductOnce), colorReset, "\n")
+
+				perfectResult2 = (math.Sqrt(float64(workPiece))) // these global values are used later to Fprint to a log file
+				perfectResult3 = math.Cbrt(float64(workPiece))
+				break // out of the for loop because the workPiece is itself a perfect square
+			}
+			if diffOfSmaller == 0 {
+				fmt.Println(colorCyan, "\n The", radical_index, "root of", workPiece, "is", colorGreen,
+					float64(rootOfProspectiveHitOnSmallerSide)/float64(RootOfsmallerPerfectProductOnce), colorReset, "\n")
+
+				perfectResult2 = (math.Sqrt(float64(workPiece))) // these global values are used later to Fprint to a log file
+				perfectResult3 = math.Cbrt(float64(workPiece))
+				break // out of the for loop because the workPiece is itself a perfect square
+			}
+			// ---------------------------------------------------------------------------------------------------------
+			// we are in case 18:
+
+			// larger side section: ----------------------------------------------------------------------------------------------------------------------------------------
+			// --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+			// Progress reporting
+			if diffOfLarger < precisionOfRoot { // report the prospects, their differences, and the calculated result for the Sqrt or Cbrt
+				fmt.Println("small PP is", colorCyan, smallerPerfectProductOnce, colorReset, "and, slightly on the higher side of", workPiece,
+					"* that we found a PP of", colorCyan, ProspectiveHitOnLargeSide, colorReset, "a difference of", diffOfLarger)
+
+				fmt.Println("the ", radical_index, " root of ", workPiece, " is calculated as ", colorGreen,
+					float64(rootOfProspectiveHitOnLargeSide)/float64(RootOfsmallerPerfectProductOnce), colorReset)
+
+				fmt.Printf("with pdiff of %0.4f \n", (float64(diffOfLarger)/float64(ProspectiveHitOnLargeSide))*100000)
+
+				// save the result to an accumulator array so we can Fprint all such hits at the very end
+				// List_of_2_results_case18 = append(List_of_2_results_case18, float64(rootOfProspectiveHitOnLargeSide) / float64(RootOfsmallerPerfectProductOnce) )
+				// corresponding_diffs = append(corresponding_diffs, diffOfLarger)
+				// diffs_as_percent = append(diffs_as_percent, float64(diffOfLarger)/float64(ProspectiveHitOnLargeSide))
+
+				// in the next five lines we load (append) a record into/to the file (array) of Results
+				Result1 := Results{
+					result: float64(rootOfProspectiveHitOnLargeSide) / float64(RootOfsmallerPerfectProductOnce),
+					pdiff:  float64(diffOfLarger) / float64(ProspectiveHitOnLargeSide),
+				}
+				sortedResults = append(sortedResults, Result1)
+
+				t2 := time.Now()
+				elapsed2 := t2.Sub(startBeforeCall)
+				// if needed, notify the user that we are still working
+				Tim_win = 0.178
+				if radical_index == 3 {
+					if workPiece > 13 {
+						Tim_win = 0.0012
+					} else {
+						Tim_win = 0.003
+					}
+				}
+				if elapsed2.Seconds() > Tim_win {
+					fmt.Println(elapsed2.Seconds(), "Seconds have elapsed ... working ...\n")
+				}
+			}
+			// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+			// smaller side section: ----------------------------------------------------------------------------------------------------------------------------------------
+			// ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+			if diffOfSmaller < precisionOfRoot { // report the prospects, their differences, and the calculated result for the Sqrt or Cbrt
+				fmt.Println("small PP is", colorCyan, smallerPerfectProductOnce, colorReset, "and, slightly on the lesser side of", workPiece,
+					"* that we found a PP of", colorCyan, ProspectiveHitOnSmallerSide, colorReset, "a difference of", diffOfSmaller)
+
+				fmt.Println("the ", radical_index, " root of ", workPiece, " is calculated as ", colorGreen,
+					float64(rootOfProspectiveHitOnSmallerSide)/float64(RootOfsmallerPerfectProductOnce), colorReset)
+
+				fmt.Printf("with pdiff of %0.4f \n", (float64(diffOfSmaller)/float64(ProspectiveHitOnSmallerSide))*100000)
+
+				// save the result to three accumulator arrays so we can Fprint all such hits, diffs, and p-diffs, at the very end of run
+				// List_of_2_results_case18 = append(List_of_2_results_case18, float64(rootOfProspectiveHitOnSmallerSide) / float64(RootOfsmallerPerfectProductOnce) )
+				// corresponding_diffs = append(corresponding_diffs, diffOfSmaller)
+				// diffs_as_percent = append(diffs_as_percent, float64(diffOfSmaller)/float64(ProspectiveHitOnSmallerSide))
+				// ***** ^^^^ ****** the preceeding was replaced with the following five lines *******************************************
+
+				// in the next five lines we load (append) a record into/to the file (array) of Results
+				Result1 := Results{
+					result: float64(rootOfProspectiveHitOnSmallerSide) / float64(RootOfsmallerPerfectProductOnce),
+					pdiff:  float64(diffOfSmaller) / float64(ProspectiveHitOnSmallerSide),
+				}
+				sortedResults = append(sortedResults, Result1)
+
+				t2 := time.Now()
+				elapsed2 := t2.Sub(startBeforeCall)
+				// if needed, notify the user that we are still working
+				Tim_win = 0.178
+				if radical_index == 3 {
+					if workPiece > 13 {
+						Tim_win = 0.0012
+					} else {
+						Tim_win = 0.003
+					}
+				}
+				if elapsed2.Seconds() > Tim_win {
+					fmt.Println(elapsed2.Seconds(), "Seconds have elapsed ... working ...\n")
+				}
+			} // end of if
+			// -------------  we are in case 18:   we are in case 18:   we are in case 18:   we are in case 18:   we are in case 18: ----------------
+
+			break // each time we find a prospect we break out of the for loop --- if we found any prospects using the current index value we break
+
+		} // end of if :: if largerPerfectProduct > smallerPerfectProductOnce*workPiece  //  we only handle reads that were big enough to be prospects
+	} // this is the end of the aforementioned for loop that we break out of each time we have found a prospect and handled it
+} // the end of the readTheTableOfPP func that gets called 200,000 times
+
+// obtain workPiece and set precision for special cases 
+func setStateOfSquareOrCubeRoot(fyneFunc func(string), radical_index int, done chan bool) (int, int) { // ::: - -
+	// obtain work piece 
+	var workPiece int
+	var promptForWorkPieceInput func() // this var is outside the scope of the literal/anonymous "func() {" that we have on the next line. 
+	promptForWorkPieceInput = func() { // we could have written it all on one line as var promptForWorkPieceInput = func prompt() { ... }  // note the inclusion of "prompt()" here. 
+		showCustomEntryDialog2( // ... in which case, the recursive calls would then be prompt() instead of promptForWorkPieceInput()
+			// ^ ^ ^ signature: (title, message string, callback func(string)) {  // and those 3 arguments appear straight away: 
+			"Enter the work piece",    // title string
+			"Input one whole integer", // message string
+			func(input string) { // a callback func that takes one string "input" 
+				if input == "" {
+					// if input is empty it means the user clicked ok without typing a number as the workPiece; in which case we should re-prompt for the workPiece only 
+					promptForWorkPieceInput() // ::: Re-prompt
+				}
+				if input != "" { // User provided some input; so we will convert the string to an int
+					inputNowInt, err := strconv.Atoi(input)
+					if err != nil { // if there is an error during conversion we should 
+						updateOutput2("\nInput error: Please enter a whole integer\n")
+						promptForWorkPieceInput() // ::: Re-prompt
+					}
+					// at this point we know that the user's input has been verified and has become an integer, locally known as inputNowInt
+					workPiece = inputNowInt // copy inputNowInt to a variable with external scope 
+								fmt.Printf("\nin else if or of workPiece getter, val is:%d, radical_index: %d\n", inputNowInt, radical_index)
+								fmt.Printf("Input: %d\n", inputNowInt)
+					// currentWorkPiece := &workPiece // ???
+					// At this point, nothing should cause the UI to put up another dialog to request input of the workPiece 
+
+					// ::: Proceed with calculation
+					// Runs the calculation in a separate goroutine to avoid blocking the UI thread; and ensures cleanup happens even if the calculation is aborted or fails
+					go func(done chan bool) { // a handle to the 'done' chan is passed to xRootOfy who can then use that chan to either send or receive using the 'done' chan (actually the currentDone chan) 
+							defer func() { // This closure is "deferred" until the surrounding go func completes, regardless of whether that goroutine finishes normally or panics
+								calculating = false // These sorts of deferred statements are termed "clean-up" 
+								updateOutput2("Calculation definitely finished prior to this message; it may have run its normal course or it may have been aborted\n")
+							}() // the empty () makes this deferred func into a call, rather than just a simple definition 
+						xRootOfy(updateOutput2, radical_index, done) // xRootOfy is passed the 'done' var, which was furnished from the (currentDone) chan
+							calculating = false // Termed post-calculation clean-up (Grok's words) 
+							for _, btn := range buttons2 {
+								btn.Enable()
+							}
+					}(currentDone) // this triggers immediate execution of the go func; combining definition and execution in one statement : currentDone is presumably a variable of type chan bool
+					// done is local name - currentDone is the actual channel from the outer scope - (currentDone) bridges the outer scope’s variable to the inner function’s parameter.
+
+				} else { // the Dialog has been canceled by the user having clicked ok without typing a number (or invalid input)
+					updateOutput2("Roots canceled because of empty input field; all buttons are now available, please make another selection")
+					for _, btn := range buttons2 {
+						btn.Enable()
+					}
+					calculating = false // signifying that the UI is no longer servicing this process 
+				}
+			},
+		)
+	}
+
+	/*
+	   if workPiece != 0 {
+	       // do not ask for workPiece (again) -- and yet it does ??
+	   } else {
+	       promptForWorkPieceInput() ::: but I need this ?
+	   }
+	*/
+	
+	// grok tips for grok:
+	// with the following line commented-out the process skips prompting for the workPiece (the number to find the root of) and finishes quietly. 
+	// promptForWorkPieceInput() // with this line uncommented the output is: 
+	/*
+	small PP is  40003600081  and, slightly on the lesser side of 0 * that we found a PP of  40003600081  a difference of -40003600081
+	the  2  root of  0  is calculated as   1
+	with pdiff of -100000.0000
+	2.1467330000000002 Seconds have elapsed ... working ...
+
+	small PP is  40004000100  and, slightly on the lesser side of 0 * that we found a PP of  40004000100  a difference of -40004000100
+	the  2  root of  0  is calculated as   1
+	with pdiff of -100000.0000
+	2.146736 Seconds have elapsed ... working ...
+
+	1.000000000, is the best approximation for the Square Root of 0
+	*/
+
+
+	// set precision for certain known special cases/instances of workPiece values 
+	if radical_index == 3 { // if doing a cube root special tolerances are set here for certain problem values, i.e., 2, 11, 17, 3, 4, or 14
+		if workPiece > 4 {
+			precisionOfRoot = 1700
+			fmt.Println("\n Default precision is 1700 \n")
+		}
+		if workPiece == 2 || workPiece == 11 || workPiece == 17 {
+			precisionOfRoot = 600
+			fmt.Println("\n resetting precision to 600 \n")
+		}
+		if workPiece == 3 || workPiece == 4 || workPiece == 14 {
+			precisionOfRoot = 900
+			fmt.Println("\n resetting precision to 900 \n")
+		}
+	}
+	if radical_index == 2 { // if doing a square root we just use a tolerance of 4 for all workpieces.
+		precisionOfRoot = 4
+	}
+	return radical_index, workPiece
+}
+
+// Build a table of 825,000 pairs of PPs with their roots, does either squares or cubes:
+
+func buildTableOfPerfectProducts(radical_index int) {
+
+	var PerfectProduct int
+	Table_of_perfect_Products = nil // this fixed my bug
+	root := 10
+	iter := 0
+	for iter < 825000 { // a table of 825,000 pairs: PPs with their roots. That ought to do it !!
+		iter++
+		root++
+		if radical_index == 3 { // build an array of perfect cubes
+			PerfectProduct = root * root * root
+		}
+		if radical_index == 2 { // build an array of perfect squares
+			PerfectProduct = root * root
+		}
+		Table_of_perfect_Products = append(Table_of_perfect_Products, PerfectProduct)
+		Table_of_perfect_Products = append(Table_of_perfect_Products, root) // the root of the prior PP
+	}
+} // end of transmission 

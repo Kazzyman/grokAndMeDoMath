@@ -207,34 +207,11 @@ func updateOutput1(text string) {
 	outputLabel1.Refresh()
 	scrollContainer1.ScrollToBottom()
 }
-// updateOutput2 updates both the label and scroll area with text
-func updateOutput2(mgr *TrafficManager, scroll *widget.RichText, text string) {
-	// Update label via mgr
-	mgr.UpdateOutput(text)
 
-	// Update scroll area (adapting your original logic)
-	currentSegments := scroll.Segments
-	totalLength := 0
-	for _, seg := range currentSegments {
-		if ts, ok := seg.(*widget.TextSegment); ok {
-			totalLength += len(ts.Text)
-		}
-	}
-	if totalLength > 99500 { // Your original limit
-		trimmed := currentSegments[len(currentSegments)-1:] // Keep last segment (approx)
-		scroll.Segments = trimmed
-	}
-	scroll.Segments = append(scroll.Segments, &widget.TextSegment{Text: text + "\n"})
-	scroll.Refresh()
-	// Scroll to bottom (assuming scroll is in a container.NewHScroll or similar)
-	if scrollContainer2 != nil { // Check if scrollContainer2 is still relevant
-		scrollContainer2.ScrollToBottom()
-	}
-}
 // fyneFunc(fmt.Sprintf("Send a message to the scroll area via fyne func"))
 // Updated output function with auto-scrolling
-/*
 func updateOutput2(text string) {
+	// mgr.UpdateOutput(text) // Label shows only this latest text -- grok did this // ::: causes dittos AND breaks scrolling for everyone!!
 	current := outputLabel2.Text
 	if len(current) > 99500 {
 		current = current[len(current)-10:]
@@ -243,11 +220,8 @@ func updateOutput2(text string) {
 	outputLabel2.Refresh()
 	scrollContainer2.ScrollToBottom()
 }
- */
 
-// fyneFunc(fmt.Sprintf("Send a message to the scroll area via fyne func"))
-
-// ::: more than one of these 
+// ::: There are more than one of the following:  
 func showCustomEntryDialog(title, message string, callback func(string)) {
 	// Create an Entry widget
 	entry := widget.NewEntry()

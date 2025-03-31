@@ -73,7 +73,7 @@ type Results struct { // define a new structure called Results with two fields; 
 }
  */
 
-var workPiece int          // the square or cube of which we are to find a root
+// var workPiece int          // the square or cube of which we are to find a root
 var skip_redoing_loop int
 
 

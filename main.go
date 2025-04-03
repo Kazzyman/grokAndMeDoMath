@@ -19,15 +19,15 @@ var (
 			bgsc = canvas.NewRectangle(color.NRGBA{R: 150, G: 180, B: 160, A: 240}) // Light green
 			bgwc = canvas.NewRectangle(color.NRGBA{R: 110, G: 160, B: 255, A: 150}) // Light blue, lower number for A: means less opaque, or more transparent
 		
-		pie float64
-		
 			outputLabel1 = widget.NewLabel("\nSelect one of the brightly-colored panels to estimate π via featured method...\n\n")
 			scrollContainer1 = container.NewVScroll(outputLabel1)
 		
 			myApp = app.New()
 			window1 = myApp.NewWindow("Rick's Pi calculation Demo, set #1")
-			currentDone    chan bool
+			// currentDone    chan bool // how things were prior to this latest project of bringing 
 )
+var tm = NewTrafficManager(outputLabel2)
+var currentDone = tm.stop
 
 func main() {
 	countAndLogSLOC() 
@@ -533,6 +533,7 @@ func main() {
 				}
 			}(currentDone)
 		}),
+
 		fyne.NewMenuItem("Abort any currently executing method", func() {
 			if currentDone == nil {
 				updateOutput1("\nNo active calculation to abort, no such currentDone channel exists\n")
@@ -544,7 +545,8 @@ func main() {
 				updateOutput1("\nMenu select determined that currentDone-chan had already been closed; all Goroutines were PREVIOUSLY notified to terminate\n")
 				fmt.Println("Menu select determined that currentDone-chan had already been closed; all Goroutines were PREVIOUSLY notified to terminate")
 			default:
-				close(currentDone)
+				tm.Stop()
+				// close(currentDone) // ::: not being included in groks latest -- said to swap for tm.stop
 				updateOutput1("\nTermination signals were sent to all current processes that may be listening\n")
 				fmt.Println("Termination signals were sent to all current processes that may be listening")
 			}

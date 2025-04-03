@@ -21,7 +21,6 @@ var (
 	scrollContainer2 = container.NewScroll(outputLabel2) // ::: - -
 	window2 = myApp.NewWindow("Rick's Pi calculation Demo, set #2") // ::: - -
 
-	mgr             = NewTrafficManager(outputLabel2) // ::: - -
 )
 
 // Three Additional Windows: 
@@ -29,14 +28,13 @@ var (
 func createWindow2(myApp fyne.App) fyne.Window {
 	window2.Resize(fyne.NewSize(1900, 1600))
 	outputLabel2.Wrapping = fyne.TextWrapWord
-	scrollContainer2.SetMinSize(fyne.NewSize(1900, 1000))
+	scrollContainer2.SetMinSize(fyne.NewSize(1900, 1090))
 	coloredScroll2 := container.NewMax(bgsc2, scrollContainer2) // Light blue-ish scroll bg
 	
 	radicalEntry := widget.NewEntry()
 	radicalEntry.SetPlaceHolder("Enter radical index (e.g., 2 or 3)")
 	workEntry := widget.NewEntry()
 	workEntry.SetPlaceHolder("Enter number to find the root of")
-	// scroll := widget.NewRichText() // rick removed grok's scroll from everywhere because we want no scrolling in the widget.NewEntry 
 
 	done := make(chan bool) // local, kill channel for all goroutines that are listening: ::: not entirely sure of this one ???
 
@@ -77,7 +75,6 @@ func createWindow2(myApp fyne.App) fyne.Window {
 		form := container.NewVBox(
 			widget.NewLabel(prompt1), entry1,
 			widget.NewLabel(prompt2), entry2,
-			// container.NewHBox(submitButton, cancelButton), // ?? still get Close button ? need no cancelButton ??
 			container.NewHBox(submitButton),
 		)
 		d := dialog.NewCustom(title, "Dismiss dialogBox", form, window2)
